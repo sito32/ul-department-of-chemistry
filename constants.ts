@@ -44,7 +44,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 'a1',
     title: 'Spring 2024 Seminar Series: Green Chemistry',
     date: '2024-03-01',
-    content: 'Join us every Wednesday for guest lectures on sustainable chemical practices.',
+    content: 'Join us every Wednesday for guest lectures on sustainable chemical practices at Main Auditorium.',
     important: true
   },
   {
@@ -58,7 +58,7 @@ export const ANNOUNCEMENTS: Announcement[] = [
     id: 'a3',
     title: 'New NMR Machine Installation',
     date: '2024-02-15',
-    content: 'The new 600 MHz NMR is now operational in Lab 304. Booking required.',
+    content: 'The new 600 MHz NMR is now operational in Lab 304. Booking required via Admin.',
     important: false
   }
 ];
@@ -121,25 +121,25 @@ export const FACULTY: FacultyMember[] = [
   {
     id: 'f1',
     name: 'Prof. Eleanor Vance',
-    role: 'Department Head',
+    role: 'Head of Department',
     specialization: 'Organic Synthesis',
-    email: 'e.vance@etheria.edu',
+    email: 'hod.chem@ul.edu.pk',
     imageUrl: 'https://picsum.photos/200/200?random=1'
   },
   {
     id: 'f2',
     name: 'Dr. Marcus Webb',
-    role: 'Senior Lecturer',
+    role: 'Associate Professor',
     specialization: 'Quantum Chemistry',
-    email: 'm.webb@etheria.edu',
+    email: 'marcus.webb@ul.edu.pk',
     imageUrl: 'https://picsum.photos/200/200?random=2'
   },
   {
     id: 'f3',
     name: 'Dr. Sarah Li',
-    role: 'Research Fellow',
+    role: 'Assistant Professor',
     specialization: 'Nanomaterials',
-    email: 's.li@etheria.edu',
+    email: 'sarah.li@ul.edu.pk',
     imageUrl: 'https://picsum.photos/200/200?random=3'
   }
 ];
